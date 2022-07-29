@@ -6,7 +6,7 @@ import plotly.graph_objects as go
 import os
 import pandas as pd
 
-path = r"D:\Training Assignment\kajal\20200711"
+path = r"D:\Training\kajal\20200711"
 l = [os.path.join(path, f) for f in os.listdir(path)]
 # File=[os.path.join(l,s)for s in os.listdir()]
 l1=[ f for f in os.listdir(path)]
